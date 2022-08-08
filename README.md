@@ -1,4 +1,4 @@
-# Progeto do curso da DIO ![zorin, SO usado](https://www.pngwing.com/pt/free-png-czgri) 
+# Progeto do curso da DIO 
 
 
 ## Anotações feitas ate agora
