@@ -1,4 +1,4 @@
-# Progeto do curso da DIO 
+# Projeto do curso da DIO 
 
 
 ## Anotações feitas ate agora
