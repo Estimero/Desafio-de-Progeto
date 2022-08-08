@@ -1,0 +1,16 @@
+*linguagens para front end : 
+ html, css e javascript 
+para programar nao e necessario uma IDE (ambiente de desenvolvimento ) pode ser um qualquer editor de texto porem em uma IDE e mais facil porque a ferramenta nos auxilia na criação dos codigos 
+
+
+*framework e um facilitador com soluções pre-definidas,que descomplicom o trabalho dos proficionais no desenvolvimento, exemplos :
+-Angular - uma plataforma expecifica para desenvolvimento de front-end ( HTML,CSS e JAVA SCRIPT )
+-Laravel - plataforma expecifica para PHP ( antes de usar a plataforma e bom que tenha uma base em PHP )
+-VUE.JS - plataforma expecifica para java script 
+-Spring - plataforma expecifica para java, onde tem recursos voltado para o Back-end  
+
+*Back-end - trabalha fazendo ponte entre dados que vem do navegador rumo ao banco de dados e vice-ersa, linguagens usadas:JAVA,PHP e C#.
+-API ( interface de progamação de aplicativos ) um intermediario de software que permite que dois aplicativos conversem entre si. 
+
+
+

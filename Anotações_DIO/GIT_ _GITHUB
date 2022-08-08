@@ -1,0 +1,39 @@
+Git e o GitHub :
+
+Exemplo de encriptação com o SHA1 no terminal -
+# echo "ola mundo" | openssl sha1  ( entrada )
+(stdin)= d9802fa01c4c1dfc4ddaf61f766d8d56ad8a8699 ( saida )
+- O SHA1 funciona encriptando os arquivos e fotos com saida de 40 caracteres na encriptação exemplo acima ou usar o : openssl sha1 arquico para encripitar 
+
+Comandos GIT      
+
+
+-#git init - Inicia um repositorio git dentro do repositorio desejado
+-#git add - Usada para adicionar um arquivo ao git antes de criar uma 'COMMIT' 
+-#git commit - Cria uma commit para encriptar e deixar pronto para enviarmos ao gitHub
+
+criamos uma pasta ex:workspace dentro dela criamos outra- livro_receitas e damos o comando
+ #git init - sera iniciado o git dendro do diretorio que estamos ( ~/workspace/livro-receitas/ ) depois faremos configs basicas do git:
+#git config --global user.email "luishenrick77@gmail.com" 
+#git config --global user.name LuisHenrick 
+como toda 'Commit' leva nome e autor e preciso fazer as configs acima.
+- com o aqruivo adiconado e alterado 
+ ( antes de dar errado adicionar o arquivo ao git com 
+#git add nome do aquivo )
+-Qual quer modificação feita deve ser usada o:
+#git commit -m "commit inicial" - para adicionarmos o commit 
+#git status - para conferir o status do arquivo/diretorio se foi ou nao enviado ao git remoto 
+#git config --list  - para listar as cofigurações do git 
+#git config --global --unset user.name  -vai zerar a confg
+#git config --global --unset user.email -de nome e email
+-arquivos README.md sao usados para expor como se fosse uma capa em nosso github 
+ 
+* para subir um diretorio git para o gitHub 
+1-criar um repositorio no github ( site) copiar o endereço https 
+2- no terminal usar o #git remote add origin URL do repositorio 
+3-#git remote -v - vai listar os repositorios cadastrados/apontado 
+4-#git push origin master ( origin e um alias da URL para que nao precise digitat a URL inteira) 
+-Ou seguir o caminho no proprio git foi usado o ssh e nao foi preciso autentificação talvez pq tenha sido add a key rsa.pub no perfil
+-Caso ocorra conflito de rejeição quando tentarmos enviar o nosso diretorio/codigo para o github e porque alguem fez alguma alteração e esta diferente do arquivo que esta em nossa maquina para isso temos que baixar antes e eviar :
+#git pull -u origin main - ele vai puxar o arquivo que esta no github e mostrar o conflito ( merge conflict in nome arq alterado) depois de resolver o conflito podemos subir o arquivo 
+#git push -u origin main
