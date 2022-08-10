@@ -1,0 +1,12 @@
+ssh e token aula dio.me
+#ssh-genkey -t ed25519 -c email   ( eda25519 tipo de criptografia )
+depois de gerada a chaves e ja ter colada a .pub no github rodar o:
+#eval $(ssh-agent -s)  ( saida - agent pid 1382) numero pid varia
+#ssh-add id_ed25519 ( vai ser passada o acesso para nosso agente com a chave privada ) e toda vez que chegar uma criptografica com essa chave o "agente" vai ficar encarregado de perceber isso usando nossa chave privada para descriptografar a mensagem.
+Possui dois tipos de git clone o via HTTPS e o SSH que e o que vamos usar depois de criar a conta e compartilhar nossa chave .pub com o git, no botao '<> Code' ao abrir ele tem opções de HTPPS e SSH vamos copiar o caminha SSH e dar o git clone :
+#git clone caminho copiado do git
+
+-como ja tinha uma chave gerada eu colei a key .pub no github e rodei os comando abaixo:
+#eval $(ssh-agent -s)
+#ssh-add id_rsa.pub
+a varios tipos de chaves na aula e mostrada a ed_numeros e a que tenho e a RSA 
